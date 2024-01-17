@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> Detailed data analysis of driving factors that leads to loan default.
 
 
 ## Table of Contents
@@ -8,45 +8,35 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+We are working for a consumer finance company which specialises in lending various types of loans to urban customers.
+ When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. 
+Two types of risks are associated with the bank’s decision:
+- If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+- If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- Univariate Analysis
+- Factors having greater impact- 
+   1. Higher interest rate,
+   2. Longer repayment term 60 months
+   3. Loan grade  D,E,F,G and loan Sub grade D2 to F5.
+   4. Applicant addr state like AK,SD,NV,NE. 
+   5. Purpose for loan like small bussiness,renewable energe and educational.
+   6. Non zero Derogatory Public records
+   7. Non zero Public bankruptcy records.
+- Factors having smaller impact- 
+   1. Higher installment
+   2. Higher loan amount.
+   3. Annual income , higher dti
+   4. Loan issue month Dec and May
+- Bivariate Analysis
+   1.Purpose of loan and applicants addr state,higher charged off rate for  vacation role in AK,IA.
+     moving expenses in moving.Home improvement and home expenses in NE,NJ.
+   2.Purpose of loan and income group,small bussiness loans for medium and lowest income groups are riskier.Renewable loans for higher income groups are riskier.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- python
+- matplotlib
+- seaborn
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
